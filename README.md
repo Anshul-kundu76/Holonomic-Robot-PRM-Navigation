@@ -109,16 +109,7 @@ matlab -r "run('main.m')"
 ---
 
 ## 🔮 Future Work
-1. **Hardware Integration**:
-   ```verilog
-   // FPGA Accelerator for PRM
-   module prm_node_generator (
-     input clk,
-     input [9:0] obstacle_map,
-     output [9:0] node_coordinates
-   );
-   ```
-
+1. **Hardware Integration**
 2. **Multi-Robot Coordination**  
 3. **ML-Based Sampling**  
 
