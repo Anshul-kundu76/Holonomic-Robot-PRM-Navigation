@@ -3,9 +3,9 @@
 ![PRM Navigation Demo](images/demo_optimized.gif)  
 *Real-time obstacle avoidance with Euclidean cost optimization*
 
-**Developer**: [Your Name] | **M.Tech VLSI Engineering**  
+**Developer**: Anshul Kundu | **M.Tech V.L.S.I. Design Engineering**  
 **Institution**: Indian Institute of Technology Jammu  
-**GitHub**: [@yourusername](https://github.com/yourusername)  
+**GitHub**: Anshul-kundu76(https://github.com/Anshul-kundu76)  
 
 ---
 
