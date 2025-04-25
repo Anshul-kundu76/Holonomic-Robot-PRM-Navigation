@@ -132,4 +132,6 @@ MIT License. See [LICENSE](LICENSE).
 ## 🙏 Acknowledgments
 - **Advisor**: Dr. Nalin Kumar Sharma (IIT Jammu)  
 - **MATLAB Robotics Toolbox**  
-- **IEEE Paper 123456** (For PRM optimization)  
+- **V. Sreeraj, G. N. Pillai, and A. J. Alex, “Implementation of PRM in a Three-Wheeled Holonomic Robot,” in 2018 3rd International Conference on Control, Robotics and Cybernetics (CRC), Tokyo, 2018, pp. 70–74. DOI: 10.1109/CRC.2018.00020
+![image](https://github.com/user-attachments/assets/79b2f0f3-5611-40ff-a39f-a6345284f9e2)
+  
