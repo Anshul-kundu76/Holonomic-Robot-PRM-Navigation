@@ -6,9 +6,9 @@ MATLAB simulation of PRM path planning for a 3-wheeled holonomic robot
 ![Demo Animation](images/demo_optimized.gif)  
 *Real-time path planning with obstacle avoidance (Click GIF to view full video)*
 
-**Developer**: [Your Full Name] | **M.Tech (VLSI Engineering)**  
+**Developer**: Anshul Kundu | **M.Tech in Electrical Engineering (V.L.S.I. Design)**  
 **Institution**: Indian Institute of Technology (IIT) Jammu  
-**GitHub**: [@yourusername](https://github.com/yourusername) | **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)  
+**GitHub**: [@yourusername](https://github.com/Anshul-kundu76) |   
 **Research Areas**: Robotics, Embedded Systems, Autonomous Navigation  
 
 ---
