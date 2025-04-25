@@ -1,44 +1,59 @@
 # Holonomic-Robot-PRM-Navigation
 MATLAB simulation of PRM path planning for a 3-wheeled holonomic robot
 
-# 🚀 PRM-Based Path Planning for 3-Wheeled Holonomic Robot | MATLAB
+# 🌟 Autonomous Navigation for Holonomic Robots: PRM Path Planning in MATLAB
 
-![PRM Simulation Demo](images/demo.gif) *(Add a short GIF/video of your simulation)*
+![Demo Animation](images/demo_optimized.gif)  
+*Real-time path planning with obstacle avoidance (Click GIF to view full video)*
 
-**Developed by:** [Your Name] | **Masters in VLSI Engineering**  
-**Affiliation:** Indian Institute of Technology (IIT) Jammu  
-**GitHub:** [@yourusername](https://github.com/yourusername) | **LinkedIn:** [Your Profile](https://linkedin.com/in/yourprofile)
+**Developer**: [Your Full Name] | **M.Tech (VLSI Engineering)**  
+**Institution**: Indian Institute of Technology (IIT) Jammu  
+**GitHub**: [@yourusername](https://github.com/yourusername) | **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)  
+**Research Areas**: Robotics, Embedded Systems, Autonomous Navigation  
+
+---
+
+## 📌 Table of Contents
+1. [Project Overview](#-project-overview)
+2. [Technical Specifications](#-technical-specifications)
+3. [Mathematical Foundations](#-mathematical-foundations)
+4. [Repository Structure](#-repository-structure)
+5. [Installation & Usage](#-installation--usage)
+6. [Results & Visualizations](#-results--visualizations)
+7. [Academic Applications](#-academic-applications)
+8. [Future Extensions](#-future-extensions)
+9. [License](#-license)
+10. [Acknowledgments](#-acknowledgments)
 
 ---
 
 ## 🔍 Project Overview
-A **MATLAB implementation** of Probabilistic Roadmap (PRM) path planning for a **3-wheeled holonomic robot**, featuring:
-- **Autonomous navigation** in obstacle-dense environments
-- **Kinematic modeling** of omnidirectional movement
-- **Euclidean distance optimization** for path planning
+This project implements **Probabilistic Roadmap (PRM)** algorithm for autonomous path planning of a 3-wheel holonomic robot in MATLAB. Key features:
 
-*Developed as part of my research in **Robotics and Autonomous Systems** at IIT Jammu.*
+- **Omnidirectional Mobility**: True holonomic movement with independent control of translation/rotation
+- **Dynamic Obstacle Handling**: Randomized obstacle generation with configurable density
+- **Optimized Path Planning**: Euclidean distance-based cost minimization
+- **VLSI-Ready**: Modular architecture for potential hardware integration (FPGA/ASIC)
+
+*Developed during my Master's research at IIT Jammu, combining principles from:*  
+✅ Robotics & Control Theory  
+✅ Algorithm Optimization  
+✅ Embedded Systems (VLSI perspective)  
 
 ---
 
 ## 🛠️ Technical Specifications
-| **Category**       | **Details**                              |
-|--------------------|-----------------------------------------|
-| **Algorithm**      | Probabilistic Roadmap (PRM)             |
-| **Robot Type**     | 3-Wheel Holonomic (Omnidirectional)     |
-| **Control System** | PID-based motion control                |
-| **Toolbox**        | MATLAB Robotics System Toolbox          |
-| **Simulation**     | Randomized obstacle generation          |
 
----
+### Core Components
+| **Component**       | **Implementation Details**               |
+|----------------------|------------------------------------------|
+| **Path Planning**    | PRM with 500+ node sampling              |
+| **Kinematics**       | 3-wheel Jacobian matrix implementation   |
+| **Control System**   | PID with tunable parameters (Kp=0.8, Ki=0.1, Kd=0.05) |
+| **Visualization**    | MATLAB Robotics Toolbox + Custom Animations |
 
-## 📂 Repository Structure
-```bash
-.
-├── src/                  # MATLAB source code
-│   ├── project_demo_5.m  # Main implementation
-├── docs/                 # Project documentation
-│   ├── presentation.pptx # Technical slides
-├── images/               # Simulation visuals
-├── LICENSE               # MIT License
-└── README.md             # This file
+### System Requirements
+```matlab
+MATLAB >= R2024b
+Toolboxes: Robotics System, Statistics and Machine Learning
+Minimum RAM: 8GB (for large obstacle maps)
